@@ -1,0 +1,36 @@
+body {
+  background: lightblue;
+}
+
+.container {
+  text-align: center;
+  width: 800px;
+  padding: 0;
+}
+
+.details {
+  clear: both;
+  overflow: hidden;
+}
+
+.temp-area, .wind-area {
+  width: 380px;
+  float: left;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px;
+  height: 200px;
+  background: #fff;
+}
+
+.temp, .tempc, .tempf {
+  font-size: 50px;
+}
+
+.wind-speed, .desc {
+  font-size: 25px;
+}
+
+#image {
+  width: 150px;
+}
